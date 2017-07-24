@@ -1,9 +1,23 @@
-body {
+html, body {
     text-align: center;
     margin: 0px;
     background-color: black;
     overflow: hidden;
+	
+	-webkit-font-smoothing: antialiased;
+	font: normal 12px/14px "Carrois Gothic", sans-serif;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
 }
+@font-face {
+  font-family: 'matrix-code';
+  src: url("font/matrix-code.eot?#iefix") format("embedded-opentype"), url("font/matrix-code.woff") format("woff"), url("font/matrix-code.ttf") format("truetype"), url("font/matrix-code.svg#svgFontName") format("svg"); }
+
 
 canvas {
     display: block;
