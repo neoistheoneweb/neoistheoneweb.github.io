@@ -62,6 +62,9 @@ function onPlayerStateChange(event) {
 		event.target.playVideo();
 	}
 }
+
+//https://github.com/neilcarpenter/Matrix-code-rain
+//modified for removing tracking and other banner effects
 var M = {
 
 	settings: {
